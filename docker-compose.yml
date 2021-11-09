@@ -1,0 +1,10 @@
+---
+services:
+  tgstickercleaner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+
+...
